@@ -41,7 +41,6 @@ static int map[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1
  * Call this when a process is first added to your queue
  */
 processData* initializeProcessData( char *processName ){
-    /* JESS: Don't try to understand the code in this file.  It will make you sad. :( */
     processData* pData = (processData*)malloc(sizeof(processData));
     char temp[21];
     char intStr[3];
